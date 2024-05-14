@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Ejerccicios 0</title>
+<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?autoload=true&amp;skin=sons-of-obsidian&amp;lang=c" defer="defer"></script>
+</head>
+<body>
+
+ <script type="text/javascript"><!--
+google_ad_client = "ca-pub-3577833867555146";
+/* metallicafamilyinicial */
+google_ad_slot = "7033791508";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+ <br>
+
+
+
+
+<pre>
+<a href="solhola.html">Prog q muestre hola multiverso</a>
+<a href="solcuadrado.html">Prog q pida un numero y muestre su cuadrado</a>
+Prog q pida 2 numeros y muestre el mayor
+Prog q muestre la secuencia 3 6 9 .. 99
+Prog q muestre la secuencia 1 2 4 6 8 10 12 .. 100
+Prog q pida 3 numeros y muestre el mayor
+Idem 4 numeros
+Idem 20 numeros
+Idem "infinitos numeros"
+Prog q pida una nota numerica y muestre su correspondiente alfabetica segun:
+	0-5		Insuf
+	5-7		Suf
+	7-9		Not
+	9-10		SB
+	10		MH
+
+Prog q pida 20 nums y muestre max, min y media.
+Prog q muestre las potencias de 2 desde 1 hasta 1024.
+Prog q muestre las 10 primeras potencias de 2.
+------------------------------------------------------
+Prog q muestre la suma de los 10 primeros numeros.
+Prog q pida un numero al usuario y muestre desde 1 hasta ese numero.
+Pedir 3 numeros (a,b,c) y mostrar desde a hasta b de c en c.
+Pedir un numero y calcular el factorial de ese numero
+Pedir 2 numeros y mostrar la potencia del primero elevado al segundo. ( Nota: no usar librerias)
+---------------------------------------------------
+Pedir 10 numeros y por cada numero si es par lo muestre 2 veces y si es impar 3 veces (el propio numero).
+Idem si es par lo muestre 20 veces y si es impar 30 veces.
+Prog que pida numeros hasta que se introduzca el 0, y mostrar la suma de todos esos numeros.
+Prog q pida numeros hasta q sea par y muestre la suma de los multiplos de 3.
+Prog que pida un numero y muestre su fibonacci. (fib(0)=0, fib(1)=1, fib(n)=fib(n-1)+fib(n-2) La suma de los anteriores.)
+Prog q pida numeros hasta -1 y muestre lasuma de todos esos numeros y cuantos hay.
+Prog q muestre la secuencia: 100 95 90 .. 0
+Prog q muestre la secuencia: 0 -10 -20 .. -100
+Prog q muestre la secuencia: 5 25 125 625 .... (10 veces)
+Prog q muestre la tabla de multiplicar del 5, asi:
+	5x0=0
+	5x1=5
+	...
+	5x10=50
+	
+Idem las tablas de multiplicar del 1 al 10.
+Prog que pida 3 numeros y despues los muestre en orden inverso (del ultimo al primero)
+Prog q pida 20 numeros y despues calcule y muestre el mayor.
+Prog q pida 50 numeros, despues q pida un numero a buscar y busque ese ultimo numero entre los 50 primeros,
+e indique si esta o no y en que posicion/es. Nota: Todas las ocurrencias, y otro prog solo la primera. 
+Prog q muestre los 128 primeros numeros primos.
+
+------
+Prog que muestre un menu:
+1.Pedir num
+2.Pedir otro num
+3.Calcular suma
+4.Mostrar todo
+5.SALIR
+-----------------------
+<a href="http://es.wikipedia.org/wiki/String.h">
+
+strlen
+strcmp
+strcpy
+[]
+printf,scanf  %s
+
+</a>
+
+Prog q pida 2 cadenas y muestre la mas larga.
+Prog q pida 1 cadena y la muestre al reves.
+Prog q pida 2 cadenas y muestre cual aparece antes alfabeticamente.
+Prog q cambie las aes por oes en una cadena.
+------------------
+<pre class="prettyprint linenums">
+
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+
+
+main()
+{
+	int i;
+	float j;
+	 time_t t;
+	srand((unsigned) time(&t));
+	
+	printf("%d",rand()%10);
+}
+</pre>
+------------
+Ejemplo strtok para trocear una cadena.
+
+<pre class="prettyprint linenums">
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+   char s1[49] = "Esto es un ejemplo para usar la funcion strtok()";
+   char s2[4] = " \n\t";
+   char *ptr;
+
+   printf( "s1=%s\n", s1 );
+
+   ptr = strtok( s1, s2 );    // Primera llamada => Primer token
+   printf( "%s\n", ptr );
+   while( (ptr = strtok( NULL, s2 )) != NULL )    // Posteriores llamadas
+     printf( "%s\n", ptr );
+
+   return 0;
+}
+   
+</pre>
+----------
+Prog q genere un numero aletoreo y pida al usuario un numero y muestre si acerto o no.
+Idem con 3 intentos maximo.
+Idem con 10 intentos e indicando si es mayor o menor.
+Idem q adivine 2 mumeros. (primero uno y despues otro)
+
+---------------------------------------
+Funciones, metodos.
+
+Funciones, metodos.
+
+Funcion q imprima hola
+
+Funcion q pida un numero,calcule el doble de ese numero y lo imprima.
+
+Funcion que pida una cadena y muestre el numero de vocales minusculas que tiene.
+
+Funcion que pida un numero y mueste si es par.
+
+
+funcion q dado un numero lo muestre por pantalla.
+
+funcion q dado un numero muestre si es par.
+
+funcion q dada una cadena muestre su longitud.
+
+funcion q dado un array lo muestre por pantalla.
+
+
+funcion q devuelva 5
+funcion q pida un numero y lo devuelva
+funcion q pida una cadena y la devuelva
+funcion q pida 20 numeros y los devuelva(como array) (parametro de entrada y salida)
+funcion q pida un numero y devuelva el doble.
+
+-------------------------------------------------------
+funcion q pida un numero y muestre solo las unidades de ese numero (Ej: 243   mostraria 3)
+funcion q dado un numero muestre el valor de sus unidades.
+funcion q dado un numero devuelva el valor de sus unidades.
+
+funcion que pida 2 numeros y muestre su suma.
+Funcion q reciba por parametro 2 numeros y muestre su suma.
+funcion q tome como argumento 2 numeros y devuelva su suma.
+
+Programa que pida 2 numeros y muestre su suma (usando la funcion anterior)
+Programa que pida 20 numeros y muestre su suma (usando la misma funcion q antes)
+
+
+
+
+</pre>
+
+<a href="ejem/ejemqhace.html">Q salida produce por pantalla el siguiente programa?</a>
+
+<pre>
+--------------------------
+--------
+#include...
+#define....
+
+struct NOMBRESTRUCT
+{
+	tipo nombre;
+	tipo nombre;
+	.....
+};
+
+main
+------
+struct NOMBRESTRUCT mivar;
+mivar.nombre=...
+.....
+
+Prog que pida al usuario los datos de una fecha(d,m,a) y despues la muestre por pantalla.
+Idem 20 fechas.
+idem 20 fechas con funciones.(pedirfecha,mostrarfecha,pedirfechas,mostrarfechas)
+
+Prog q pida los datos de una persona (nombre y fecha de nacimiento) y despues los muestre.
+Idem 20 personas.
+Idem 20 personas con funciones(las de fecha anteriores y pedirPersona mostrarPersona, pedirPersonaS y mostrarPersonaS)
+
+
+-------------------------------------
+Nota:repasar funciones (llamadas,parametros,return...)
+Prog que pida los datos de una persona (altura y edad) y despues la muestre. Metodos: pedirPersona, mostrarPersona
+Las siguientes funciones todas en el mismo programa (fichero) y con nombres apropiados:
+Funcion q cree y devuelva una persona con la altrua a 1.80 y la edad a 50.
+Funcion q dadas una altura y una edad devuelva una persona con esa altura y esa edad. 
+Funcion q dada una persona devuelva su altura.(getAltura)
+Funcion q dada una persona devuelva su edad.(getEdad)
+Funcion q dada una persona y una altura asigne esa altura a esa persona.(setAltura)
+Funcion q dada una persona y una edad asigne esa edad a esa persona.(setEdad)
+
+Prog que usando los metodos anteriores tenga un menu:
+1.Pedir Persona.
+2.Mostrar Persona.
+3.Mostrar altura de la persona.
+4.Mostrar edad de la persona.
+5.Cambiar altura de la persona.
+6.Cambiar edad de la persona.
+7.Salir
+Nota: Si no se introduce una persona sus datos deben ser 1.80 y 50.
+-------------------------------------- 
+
+solo C++:
+Constructores, get,set.....
+
+Idem pero ya OO.
+
+
+
+
+
+
+
+---------------------
+struct y union....
+
+Prog que pida 2 fechas y despues las muestre.
+Prog que pida 10 fechas (las almacene) y despues muestre la fecha mayor.
+Idem dividido en funciones. (repasar el ejemplo: ¿que hace?)
+Prog q pida los datos de 10 personas (nombre fecha de nacimiento) y muestre la/s persona/s 
+con la edad mayor. Con funciones.
+-------------------------------------------
+
+
+-------------------------------------------
+
+Punteros y mem dinamica  (int *p;  &amp;var    *p  p    )(malloc,free)
+
+Punt a est.
+
+Programa que pida un numero al usuario y desues lo muestre. (Con una funcion q pide y dev el num (sin return))
+Prog que pida 2 numeros y muestre su suma. Funciones: PedirNum Pedir2Num sumar y mostrar   (sin return)
+
+Salida por pantalla de:
+inf f(int x,int *y,int *z)
+{
+  x++;
+  *y=*y+1;
+  *z=*z+1;
+  return 3;
+}
+void main()
+{
+	int a=1,b=2,c=3,*d=&amp;c;
+	int res;
+	
+	res=f(a,&amp;b,d);
+	printf("a=%d , b=%d, d=%d\n",a,b,c);
+ }
+ 
+ Salida por pantalla de:
+ 
+ int modificar(int a,int *b);
+ 
+ void main()
+ {
+ 	int a,b;
+ 	int *pa=&a;
+ 	int *pb=&b;
+ 	a=5;
+ 	b=*pa;
+ 	
+ 	printf("a= %d b=%d \n",a,b);
+ 	
+ 	
+ 	a=modificar(a,pa); 	
+ 	printf("a= %d b=%d \n",a,b);
+ 	b=modificar(a,pb);
+ 	printf("a= %d b=%d \n",a,b);
+ }
+ 
+ int modificar(int a,int *b)
+ {
+ 	*b=-a;
+ 	return (a+a);
+ }
+ 
+Programa que pregunte al usuario cuantos datos (numeros enteros) quiere almacenar, los pida y almacene
+y despues los muestre en orden inverso.
+Idem Personas.
+Ejer punteros. <a href="https://www.youtube.com/watch?v=Sj4o8-bpOYQ&list=PL_vqEQbqNOBqreXn2g0bQ1woqvwtX8pXt">(ED dinamicas),Listas...</a>
+
+</pre>
+
+<h2>VARIOS</h2>
+
+
+<pre class="prettyprint linenums">
+
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#define DEBUG
+
+/*
+macros
+*/
+#define MIMACRO  printf("Hola\n"); 
+#define MOSTRAR(x) printf("%d\n",x);
+
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+enum dias {LUNES,MARTES,MIERCOLES,JUEVES,VIERNES,SABADO,DOMINGO};
+
+union miunion
+{
+	int c1;
+	float c2;
+};
+
+
+
+
+typedef int entero;
+
+
+
+int main(int argc, char *argv[]) 
+{
+
+enum dias d;
+
+
+d=LUNES;
+/*ERROR
+d="LUNES";*/
+
+
+if (d==LUNES) printf ("Dia es Lunes\n");	
+/*....*/
+
+
+
+
+/*union*/
+
+union miunion mivar;
+
+
+
+mivar.c1=8;
+
+printf("%d\n",mivar.c1);
+
+mivar.c2=3.5;
+
+printf("%.1f\n",mivar.c2);
+
+/*noooo
+printf("%d\n",mivar.c1);
+*/
+
+
+/*macros*/
+
+MIMACRO;
+
+
+int a=5,b=7;
+MOSTRAR(a);
+MOSTRAR(b);
+
+
+/*typedef*/
+
+
+entero k=5;
+
+MOSTRAR(k);
+
+
+
+/*  strtod,strtol, atoi...*/
+
+int num=atoi("15");
+printf("%d\n",num+5);
+
+
+num=atoi("hola15");
+printf("%d\n",num); /*0*/
+
+char *pana;
+double pi;
+
+pi=strtod("3.1415926",&pana);
+
+printf("%f\n",pi);
+
+char str[30] = "2030300 This is test";
+   char *ptr;
+   long ret;
+
+   ret = strtol(str, &ptr, 10);
+   printf("The number(unsigned long integer) is %ld\n", ret);
+   printf("String part is |%s|", ptr);
+
+
+	
+	
+	#ifdef DEBUG
+		printf("\nDepurando\n");
+		
+	#endif
+	
+	return 0;
+}
+
+#endif
+
+
+
+</pre>
+
+
+
+
+ <script type="text/javascript"><!--
+google_ad_client = "ca-pub-3577833867555146";
+/* metallicafamilyinicial */
+google_ad_slot = "7033791508";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+ <br>
+
+</body>
+</html>

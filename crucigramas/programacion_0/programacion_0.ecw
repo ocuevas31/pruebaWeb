@@ -1,0 +1,26 @@
+; EclipseCrossword (1.2.61) crossword puzzle
+; Get EclipseCrossword free at:
+; http://www.eclipsecrossword.com
+
+Title:  programacion_0
+Width:  13
+Height:  13
+CodePage:  0
+Author:  nosuspendo.com
+Copyright:  © 2015
+
+; ------------------------------------------------------------
+* Across words
+; ------------------------------------------------------------
+
+PROGRAMA:  3, 4:  Secuencia de instrucciones, escritas para realizar una tarea especifica con un ordenador.
+BUCLE:  1, 7:  Sentencia utilizada para hacer que una accion se repeta sin tener que escribir varias veces el mismo codigo, lo que ahorra tiempo, deja el codigo mas claro y facilita su modificacion en el futuro.
+ALGORITMO:  2, 12:  Serie  de instrucciones o reglas bien definidas, ordenadas y finitas que permite realizar una actividad mediante pasos sucesivos que no generen dudas a quien deba realizar dicha actividad.
+
+; ------------------------------------------------------------
+* Down words
+; ------------------------------------------------------------
+
+TIPO DE DATOS:  5, 1:  Especifica el conjunto de valores del cual una variable puede tomar su valor.
+VARIABLE:  8, 3:  Espacio que permite almacenar un valor que representa un dato o informacion. Tiene un nombre y un tipo de datos asociado. Puede cambiar en el tiempo.
+

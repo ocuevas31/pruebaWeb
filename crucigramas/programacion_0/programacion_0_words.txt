@@ -1,0 +1,5 @@
+Variable:  Espacio que permite almacenar un valor que representa un dato o informacion. Tiene un nombre y un tipo de datos asociado. Puede cambiar en el tiempo.
+Tipo de datos:  Especifica el conjunto de valores del cual una variable puede tomar su valor.
+Algoritmo:  Serie  de instrucciones o reglas bien definidas, ordenadas y finitas que permite realizar una actividad mediante pasos sucesivos que no generen dudas a quien deba realizar dicha actividad.
+Bucle:  Sentencia utilizada para hacer que una accion se repeta sin tener que escribir varias veces el mismo codigo, lo que ahorra tiempo, deja el codigo mas claro y facilita su modificacion en el futuro.
+Programa:   Secuencia de instrucciones, escritas para realizar una tarea especifica con un ordenador.
